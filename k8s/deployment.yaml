@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: trend
-        image: yourdockerhubusername/trend-app:v1
+        image: sayfops/trend-eks-app:v1
         ports:
-        - containerPort: 80
+        - containerPort: 3000
